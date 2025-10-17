@@ -1,19 +1,24 @@
 <p align="center"><img src="docs/images/rvx_logo.png" width="100"/></p>
 
-RVX is a microcontroller IP core developed in Verilog that implements the RV32I instruction set of RISC-V. It is designed for easy, seamless integration into embedded systems and FPGA designs, facilitating the rapid development of innovative RISC-V applications.
+RVX is a RISC-V soft-core microcontroller IP for FPGAs written in Verilog. It is designed for easy integration into custom RTL designs, enabling rapid prototyping and deployment of RISC-V applications on FPGA platforms.
 
-RVX can run real-time operating systems such as FreeRTOS, as well as bare-metal embedded software. Its design includes components such as memory, timers, and interfaces for UART, GPIO, and SPI communication, enabling RVX to integrate with a variety of sensors and actuators commonly used in embedded applications.
+RVX implements the RV32I base integer instruction set of RISC-V, the Zicsr extension, and provides full support for machine mode (M-mode) operation. It can run bare-metal applications as well as real-time operating systems such as FreeRTOS. Its architecture includes on-chip memory, timers, and standard interfaces - including UART, GPIO, and SPI - providing easy connectivity to sensors, actuators, and other peripherals commonly used in FPGA-based designs.
 
 Check out [RVX Documentation][1].
 
-## Get Started
+## Getting Started
 
-The quickest way to get started is to implement one of the example projects on your FPGA. Check it out:
+The simplest way to get started is to try one of the example projects on your FPGA:
 
 - [Hello World Example][2]
+
+  A simple application that sends a "Hello World!" message to your computer using RVX UART. 
+
 - [FreeRTOS Example][3]
 
-See the [User Guide][4] to learn how to create your own applications.
+  A project that uses FreeRTOS task scheduler and RVX GPIO to blink two LEDs in a timed sequence.
+
+Check the [User Guide][4] to learn how to create an application from scratch.
 
 ## License
 
