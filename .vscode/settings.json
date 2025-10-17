@@ -1,5 +1,5 @@
 {
-  "verilog.ctags.path": "/usr/local/bin/ctags",
+  /*  "verilog.ctags.path": "/usr/local/bin/ctags",
   "verilog.linting.linter": "verilator",
   "verilog.linting.verilator.includePath": [
     "${workspaceFolder}/hardware/"
@@ -8,5 +8,5 @@
   "editor.tabSize": 2,
   "editor.detectIndentation": false,
   "verilog.formatting.verilogHDL.formatter": "verible-verilog-format",
-  "editor.formatOnSave": true
+  "editor.formatOnSave": true*/
 }
