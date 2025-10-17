@@ -10,18 +10,18 @@ markdown_extensions:
     - tables
     - footnotes
     - admonition
+    - def_list
     - pymdownx.details
     - pymdownx.superfences
+    - pymdownx.highlight
+    - pymdownx.inlinehilite
+    - pymdownx.snippets    
     - pymdownx.tabbed:
         alternate_style: true
     - pymdownx.highlight:
         anchor_linenums: true
         line_spans: __span
         pygments_lang_class: true
-    - pymdownx.highlight
-    - pymdownx.inlinehilite
-    - pymdownx.snippets
-    - def_list
     - pymdownx.tasklist:
         custom_checkbox: true
     - pymdownx.emoji:
@@ -53,7 +53,7 @@ plugins:
     - search
 docs_dir: docs/
 remote_branch: docs
-copyright: Copyright (c) RVX contributors
+copyright: Copyright (c) 2020-2025 RVX contributors
 nav:
     - Homepage: 'index.md'    
     - User Guide: 'userguide.md'
