@@ -27,5 +27,5 @@ Please open a [new issue][6].
 [2]: https://rafaelcalcada.github.io/rvx/examples/helloworld
 [3]: https://rafaelcalcada.github.io/rvx/examples/freertos
 [4]: https://rafaelcalcada.github.io/rvx/userguide/
-[5]: LICENSE
+[5]: LICENSE.md
 [6]: https://github.com/rafaelcalcada/rvx/issues

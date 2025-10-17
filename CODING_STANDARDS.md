@@ -82,6 +82,6 @@ Adhering to these guidelines helps everyone work more efficiently and supports t
 
 ## License Notice
 
-RVX Coding Standards is licensed under the [MIT License](LICENSE).
+RVX Coding Standards is licensed under the [MIT License](LICENSE.md).
 
 This work is adapted from "[lowRISC Verilog Coding Style Guide](https://github.com/lowRISC/style-guides)" by [lowRISC](https://lowrisc.org/), originally licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed).
