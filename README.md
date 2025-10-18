@@ -1,6 +1,6 @@
 <p align="center"><img src="docs/images/rvx_logo.png" width="100"/></p>
 
-RVX is a RISC-V soft-core microcontroller IP for FPGAs written in Verilog. It is designed for easy integration into custom RTL designs, enabling rapid prototyping and deployment of RISC-V applications on FPGA platforms.
+RVX is a RISC-V soft-core microcontroller for FPGA implementation written in Verilog. It is designed for easy integration into custom RTL designs, enabling rapid prototyping and deployment of RISC-V applications on FPGA platforms.
 
 RVX implements the RV32I base integer instruction set of RISC-V, the Zicsr extension, and provides full support for machine mode (M-mode) operation. It can run bare-metal applications as well as real-time operating systems such as FreeRTOS. Its architecture includes on-chip memory, timers, and standard interfaces - including UART, GPIO, and SPI - providing easy connectivity to sensors, actuators, and other peripherals commonly used in FPGA-based designs.
 
