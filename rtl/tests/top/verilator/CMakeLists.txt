@@ -38,14 +38,14 @@ add_executable(${APP_NAME} ${SOURCES})
 
 verilate(${APP_NAME}
   INCLUDE_DIRS
-    "../../../../hardware/core"
-    "../../../../hardware/bus"
-    "../../../../hardware/ram"
-    "../../../../hardware/uart"
-    "../../../../hardware/mtimer"
-    "../../../../hardware/mcu"
-    "../../../../hardware/gpio"
-    "../../../../hardware/spi"
+    "../../../../rtl/core"
+    "../../../../rtl/bus"
+    "../../../../rtl/ram"
+    "../../../../rtl/uart"
+    "../../../../rtl/mtimer"
+    "../../../../rtl/mcu"
+    "../../../../rtl/gpio"
+    "../../../../rtl/spi"
 
   SOURCES "mcu_sim.v"
   TRACE_FST

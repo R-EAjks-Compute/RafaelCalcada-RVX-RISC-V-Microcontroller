@@ -28,7 +28,7 @@ The hardware unit tests consist of a Verilog testbench. Follow the steps below t
 
 * Open **AMD Xilinx Vivado**
 * Click on **Run Tcl script...** in the **Tools** menu
-* Select the file `hardware/create_unit_tests_project.tcl` and click **Ok**
+* Select the file `rtl/create_unit_tests_project.tcl` and click **Ok**
 
     A Vivado project to run the unit tests will be created.
 

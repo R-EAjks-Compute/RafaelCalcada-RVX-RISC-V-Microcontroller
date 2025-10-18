@@ -2,7 +2,7 @@
   "verilog.ctags.path": "/usr/local/bin/ctags",
   "verilog.linting.linter": "verilator",
   "verilog.linting.verilator.includePath": [
-    "${workspaceFolder}/hardware/"
+    "${workspaceFolder}/rtl/"
   ],
   "verilog.linting.verilator.arguments": "-Wall --timing",
   "editor.tabSize": 2,
