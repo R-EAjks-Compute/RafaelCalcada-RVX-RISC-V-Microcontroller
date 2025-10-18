@@ -9,5 +9,7 @@
   "editor.detectIndentation": false,
   "verilog.formatting.verilogHDL.formatter": "verible-verilog-format",
   "editor.formatOnSave": true,
-  "cmake.ignoreCMakeListsMissing": true
+  "cmake.ignoreCMakeListsMissing": true,
+  "python.defaultInterpreterPath": "/workspaces/rvx/.venv/bin/python",
+  "python.terminal.activateEnvironment": false
 }

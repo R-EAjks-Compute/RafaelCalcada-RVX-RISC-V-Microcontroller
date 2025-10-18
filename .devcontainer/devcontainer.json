@@ -30,5 +30,9 @@
       ]
     }
   },
-  "remoteUser": "rvx"
+  "remoteUser": "rvx",
+  "postStartCommand": ".devcontainer/setup_env.sh",
+  "containerEnv": {
+    "VIRTUAL_ENV_DISABLE_PROMPT": "1"
+  }
 }
