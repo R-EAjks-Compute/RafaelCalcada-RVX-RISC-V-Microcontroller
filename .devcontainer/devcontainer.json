@@ -16,7 +16,7 @@
   "customizations": {
     "vscode": {
       "extensions": [
-        "ms-vscode.cpptools",
+        "ms-vscode.cpptools-extension-pack",
         "cschlosser.doxdocgen",
         "eamodio.gitlens",
         "ms-python.python",
